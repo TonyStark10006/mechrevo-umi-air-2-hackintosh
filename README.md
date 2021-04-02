@@ -15,3 +15,9 @@ OC引导来源于[@cmbs2019](https://www.cmbs-soft.com/oc-10th-2-8-0/)，感谢�
 - RealtekRTL8111.kext
 - VoodooI2C.kext
 - VoodooI2CHID.kext
+
+解锁64M DVMT
+```setup_var_3 0xF5 0x2```
+
+解锁CFG Lock
+```setup_var_3 0x3E 0x0```
